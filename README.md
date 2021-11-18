@@ -3,3 +3,5 @@ Projekti ne lenden e internetit
 
 AUTHORS
 @Shefket
+@Melos
+@Joni
