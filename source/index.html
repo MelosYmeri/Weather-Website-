@@ -7,8 +7,12 @@
     <title>Document</title>
     <style>
          body{
-        margin: 20px;
-     background-color:#add8e6;
+            background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/backGround.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
     
     
     }
@@ -30,12 +34,18 @@
         li{
             display: inline-block;
             padding: 10px;
+           
             
             
         }
+        .li1:hover{
+   
+    background: rgba(0, 0, 255, 0.199);
+    transition: 1s;
+}
         nav{
             padding: 0px;
-            background-color:#add8e6 ;
+            
             
         }
         .logo{
@@ -112,10 +122,14 @@ top: 2px;
 top: 2px;
             left: 1450px;
        }
+      
+       th{
+           color: white;
+       }
 
 
        footer{ padding: 20px;
-            background-color: #add8e6;
+           
             text-align: center;
           
         }
@@ -133,20 +147,20 @@ top: 2px;
         
         
             <nav>
-                <hr>
+                
                 <table>
 <tr>
                 <th style="width: 200px;">
-                    <li ><img class="logo" src="images/logo.png" alt=""  ></li>
+                    <li ><img class="logo" src="images/logoP.png" alt=""  ></li>
                 </th>
                
                 <th >
                 <ul >
                     
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="trajnimet.html">App</a></li>
-                    <li><a href="pakot.html">News</a></li>
-                    <li><a href="kontakti.html">About</a></li>
+                    <li class="li1"><a href="index.html">Home</a></li>
+                    <li class="li1"><a href="App.html">App</a></li>
+                    <li class="li1"><a href="News.html">News</a></li>
+                    <li class="li1"><a href="About.html">About</a></li>
                 </ul>
             </th>
             
@@ -154,8 +168,8 @@ top: 2px;
                <form  action="">
                
                     
-                        <select name="" id="" style="height: 42px ;width: 80px; font-size: 28px;">
-                            <option value="0">&#8451</option>
+                        <select name="" id="" style="height: 42px ;width: 80px; font-size: 28px; background-color: rgba(0, 0, 255, 0);">
+                            <option  value="0">&#8451</option>
                             <option value="1">&#8457</option>
                         </select>
                     
@@ -164,21 +178,21 @@ top: 2px;
             </th>
             </tr>
             </table>
-            <hr>
+        
             </nav>
             <div>
                 <form  action="">
                     <table class="center1"><tr >
                         
                         <th >
-                            <button  style="padding: 0;" type="submit"><img style=" padding: 0; width: 45px;height: 45px;" src="images/location.png" alt=""></button>
+                            <button  style="padding: 0; background-color:rgba(0, 0, 255, 0);" type="submit"><img style=" padding: 0; width: 45px;height: 45px;" src="images/location.png" alt=""></button>
                          </th>
 
                         <th >
-                           <input style="height: 52px; width: 600px;" type="search" placeholder="Search location..." name="search">
+                           <input style="height: 52px; width: 600px; background-color: rgba(0, 0, 255, 0);" type="search" placeholder="Search location..." name="search">
                         </th>
                         <th >
-                           <button  style="padding: 0;" type="submit"><img style=" padding: 0; width: 45px;height: 45px;" src="images/search1.png" alt=""></button>
+                           <button  style="padding: 0; background-color: rgba(0, 0, 255, 0);" type="submit"><img style=" padding: 0; width: 45px;height: 45px;" src="images/search1.png" alt=""></button>
                         </th>
                         </tr>
                         </table>
@@ -186,10 +200,11 @@ top: 2px;
 
             </div>
         </header>
+        <br><br><br><br>
         <div >
             
         <div class="container" >
-            <img src="images/widget.jpg" alt="" style="width:100%; height: 150px;">
+            <img src="images/Bg.jpg" alt="" style="width:100%; height: 150px;">
             <table>
                 <tr>
                     <th>
@@ -204,7 +219,7 @@ top: 2px;
                 <th>
                     <img class="Md" src="images/Md.png" alt="">
                 </th>
-                <th>
+                <th class="Fcolor">
                     <div class="temp1">
                     <p style="font-size: 28px;"> 15 &#8451 <br> 
                         sunny 
@@ -346,7 +361,7 @@ top: 2px;
                 
           </div>
           <div class="container" >
-            <img src="images/widget.jpg" alt="" style="width:100%; height: 150px;">
+            <img src="images/Bg.jpg" alt="" style="width:100%; height: 150px;">
             <table>
                 <tr>
                     <th>
@@ -504,7 +519,7 @@ top: 2px;
           </div>
 
           <div class="container" >
-            <img src="images/cloudy1c.jfif" alt="" style="width:100%; height: 150px;">
+            <img src="images/Bg.jpg" alt="" style="width:100%; height: 150px;">
             <table>
                 <tr>
                     <th>
@@ -662,7 +677,7 @@ top: 2px;
           </div>
 
           <div class="container" >
-            <img src="images/rainc.jpg" alt="" style="width:100%; height: 150px;">
+            <img src="images/Bg.jpg" alt="" style="width:100%; height: 150px;">
             <table>
                 <tr>
                     <th>
@@ -820,7 +835,7 @@ top: 2px;
           </div>
 
           <div class="container" >
-            <img src="images/rainc.jpg" alt="" style="width:100%; height: 150px;">
+            <img src="images/Bg.jpg" alt="" style="width:100%; height: 150px;">
             <table>
                 <tr>
                     <th>
@@ -978,7 +993,7 @@ top: 2px;
           </div>
 
           <div class="container" >
-            <img src="images/rru2c.jpg" alt="" style="width:100%; height: 150px;">
+            <img src="images/Bg.jpg" alt="" style="width:100%; height: 150px;">
             <table>
                 <tr>
                     <th>
@@ -1136,7 +1151,7 @@ top: 2px;
           </div>
 
           <div class="container" >
-            <img src="images/widget.jpg" alt="" style="width:100%; height: 150px;">
+            <img src="images/Bg.jpg" alt="" style="width:100%; height: 150px;">
             <table>
                 <tr>
                     <th>
