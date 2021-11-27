@@ -1,0 +1,62 @@
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/backGround.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+min-height: 100vh;
+width: 100%;
+
+
+}
+
+
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: 1045px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+   
+    
+    
+}
+.li1:hover{
+
+background: rgba(0, 0, 255, 0.199);
+transition: 1s;
+}
+nav{
+    padding: 0px;
+    
+    
+}
+.logo{
+    width:120px ;
+    align-items: left;
+  
+}
+.center1{
+    margin-left: auto;
+margin-right: auto;
+padding: 20px;
+}
+img{
+    
+    width: 80px;
+    align-items: left;
+
+}
+.container{
+    position: relative;
+   
+}

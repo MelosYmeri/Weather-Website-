@@ -1,0 +1,154 @@
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/backGround.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+min-height: 100vh;
+width: 100%;
+
+
+}
+
+
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: 1045px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+   
+    
+    
+}
+.li1:hover{
+
+background: rgba(0, 0, 255, 0.199);
+transition: 1s;
+}
+nav{
+    padding: 0px;
+    
+    
+}
+.logo{
+    width:120px ;
+    align-items: left;
+  
+}
+.center1{
+    margin-left: auto;
+margin-right: auto;
+padding: 20px;
+}
+
+img{
+    
+    width: 80px;
+    align-items: left;
+
+}
+.container{
+    
+    position: relative;
+    
+}
+.Emri{
+position: absolute;
+top: 30px;
+    left: 50px;
+}
+.Md{
+position: absolute;
+top: 30px;
+    left: 250px;
+}
+.temp1{
+position: absolute;
+top: 10px;
+    left: 400px;
+
+}
+
+.monday{
+position: absolute;
+top: 2px;
+    left: 550px;
+    
+}
+.tuesday{
+position: absolute;
+top: 2px;
+    left: 700px;
+
+}
+.wendsday{
+position: absolute;
+top: 2px;
+    left: 850px;
+
+}
+.thursday{
+position: absolute;
+top: 2px;
+    left: 1000px;
+
+}
+.friday{
+position: absolute;
+top: 2px;
+    left: 1150px;
+}
+.saturday{
+position: absolute;
+top: 2px;
+    left: 1300px;
+}
+.sunday{
+position: absolute;
+top: 2px;
+    left: 1450px;
+}
+
+th{
+   color: white;
+}
+
+
+footer{ padding: 20px;
+   
+    text-align: center;
+  
+}
+iframe{
+    padding: 20px;
+    width: 50%;
+    height: 300px;
+
+}
+.boton1{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size:13px;
+    background: transparent;
+    position: relative;
+    cursor:pointer;
+    
+}
+.boton1:hover{
+    border:1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
