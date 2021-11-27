@@ -19,9 +19,10 @@ ul{
     text-align: center;
 }
 a{
+    font-family: monospace;
     text-decoration: none;
     font-size: 30px;
-    color: black;
+    color: white;
 }
 li{
     display: inline-block;
