@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-       body{
+    body{
             background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/backGround.jpg);
     background-position: center;
     background-size: cover;
@@ -53,21 +53,87 @@
             align-items: left;
           
         }
-        .center1{
-            margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-        }
-        img{
-            
-            width: 80px;
-            align-items: left;
-        
-        }
-        .container{
-            position: relative;
+.text-box{
+    width:90%;
+    color: #fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin:10px 0 40px;
+    font-size:14px;
+    color:#fff;
+}
+.Buton{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size:13px;
+    background: transparent;
+    position: relative;
+    cursor:pointer;
+}
+.Buton:hover{
+    border:1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 1rem;
+    width: 1000px;
+    max-width: 100%;
+    color:#fff;
+}
+.text-center {
+    text-align: center;
+   
+}
+.row{
+    display: flex;
+}
+.col{
+    padding: 1rem;
+    flex: 1;
+}
+.col:not(:last-child){
+    border-right: 2px solid #c4c4c4;
+}
+h3{
+    margin: 10px 0;
+
+}
+img{
+    max-width: 100%;
+}
+
+main p {
+line-height: 1.5rem;
+letter-spacing: 1px;
+}
+
+#more {display: none;}
+
+footer{ padding: 20px;
            
-        }
+           text-align: center;
+         
+       }
+       iframe{
+           padding: 20px;
+           width: 50%;
+           height: 300px;
+      
+       }
     </style>
 </head>
 <body>
@@ -88,8 +154,10 @@
                 
                 <li class="li1"><a href="index.html">Home</a></li>
                 <li class="li1"><a href="App.html">App</a></li>
+                
                 <li class="li1"><a href="News.html">News</a></li>
                 <li class="li1"><a href="About.html">About</a></li>
+               
             </ul>
         </th>
         
@@ -99,6 +167,64 @@
     
         </nav>
     </header>
+
+    <main class="container">
+        <div class="row">
+            <div class="col">
+                <h3>Mot i vranët dhe me diell, në viset malore të Kosovës mundësi për borë</h3>
+               
     
+                <img src="images/mt.jpg" alt="">
+                <p>
+                    Mot i qëndrueshëm deri në fundjavë, me vranësira e diell. Në viset malore kryesisht në Rugovë mundësi për reshje bore.
+                   
+                    Sot do të mbajë mot i ftohtë, me vranësira dhe intervale me diell. Temperaturat e ajrit gjatë ditës së sotme do të luhatën nga 1 deri në 8 °C.
+                    
+                    Dita e shtunë do të jetë me mot pjesërisht me re, pasdite pothuajse i kthjellët, në mbrëmje me mjegull. Temperaturat parashihet të lëvizin prej 5 deri në 12 °C.
+                    
+                    E diela do të mbajë mot pjesërisht me re e me diell. Temperaturat parashihet të lëvizin prej 0 deri në 13 °C.
+                </span>
+                </p>
+                
+            </div>    
+            <div class="col">
+                <h3>Ngrohja globale në pikën kulmuese</h3>
+               
+    
+                <img src="images/ngrohja.jpg" alt="">
+                <p>
+                    <h4>Emetimet e karbonit, acidifikimi i oqeanit, shkatërrimi i Amazonës po gjenerojnë shifra të reja shqetësuese</h4>
+                    Një studim i ri që ka trajtuar shenjat jetësore të planetit ka zbuluar se shumica e treguesve kyç të krizës klimatike globale po përkeqësohen dhe se ose po u afrohen ose po i tejkalojnë pikat kyç, ngase Toka po nxehet fort.
+    
+                    Në përgjithësi, studimi ka zbuluar se 16 prej 31 sinjaleve jetësore të planetit, të cilat janë vrojtuar, përfshirë përqendrimet e gazeve serrë, përmbajtja e nxehtësisë së oqeanit dhe masës së akullit, kanë rezultuar me shifra shqetësuese, ka shkruar të enjten e përditshmja britanike “The Guardian”.
+                    Autorët e kanë theksuar njashtu nevojën për një ndalim të përkohshëm të lëndëve djegëse fosile dhe zhvillimin e rezervave globale strategjike të klimës për t’i mbrojtur dhe rivendosur zhytjet natyrore të karbonit dhe biodiversitetin.
+    
+                    Arsimimi klimatik duhet që po ashtu të jetë pjesë e kurrikulave shkollore në të gjithë globin, kanë bërë të ditur studiuesit.
+                </p>
+            </div>    
+            <div class="col">
+                <h3>Metereologu Rugova tregon se kur mund të bie borë në Kosovë
+                </h3>
+               
+    
+                <img src="images/bore.jpg" alt="">
+                <p>
+                    Sipas Rugovës, ditët e fundit të muajit nëntor dhe në dhjetor mund të ketë të reshura të borës.
+                    “Patjetër që ditët e fundit të nëntorit dhe dhjetorit sjellin mundësitë për të reshurat e borës, e me këtë shtohet edhe intetesimi se kur mund të kemi reshjet e para të dëborës”, tha Rugova të dielen për Express.
+    
+    Rugova thekson se gjatë kësaj jave nuk pritet të ketë reshje bore, por vetëm të shiut.
+    
+    “Sipas zhvillimeve të fundit të situatës sinoptike as gjatë kësaj jave nuk priten mundësi për reshje bore. Gjatë kësaj jave pritet të kemi periudha me të reshura, por të shiut, ngase temperaturat ende do të jenë të larta. Vetëm në vise të larta malore janë gjasat për bore”, tha ai.
+    
+    “Për momentin, mundësitë janë nga ditët e para të dhjetorit, kur edhe trendi i temperaturave është në rënie. Mirëpo në distancë kohore ende është pak larg, për të qenë parashikimet e besueshme”, përfundoi ai.
+                </p>
+            </div>    
+        </div>
+      </main>
+      <footer>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1504722.0656940266!2d19.7809231121342!3d42.55719786273577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13537af354bf7df1%3A0xbfffeedfabc31791!2sKosovo!5e0!3m2!1sen!2s!4v1637336263425!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <br>
+        <a href="index.html"> Weather Website</a>
+    </footer>
 </body>
 </html>
