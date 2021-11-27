@@ -4,101 +4,238 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-      body{
-            background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/backGround.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
-    
-    
-    }
-       
-
-        
-        ul{
-            list-style-type: none;
-            padding: 0px;
-            margin: 0px;
-            width: 1045px;
-            text-align: center;
-        }
-        a{
-            text-decoration: none;
-            font-size: 30px;
-            color: black;
-        }
-        li{
-            display: inline-block;
-            padding: 10px;
-           
-            
-            
-        }
-        .li1:hover{
+    <title>Weather Web</title>
    
-    background: rgba(0, 0, 255, 0.199);
-    transition: 1s;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+<style>
+    *{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
 }
-        nav{
-            padding: 0px;
-            
-            
-        }
-        .logo{
-            width:120px ;
-            align-items: left;
-          
-        }
-        .center1{
-            margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-        }
-        img{
-            
-            width: 80px;
-            align-items: left;
-        
-        }
-        .container{
-            position: relative;
-           
-        }
-    </style>
+.header{
+    min-height:100vh;
+    width:100;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/backGround.jpg");
+    background-position:center;
+    background-size:cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding:5px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width:93px;
+    height:74px;
+}
+.links{
+    flex:1;
+    text-align:center;
+}
+.links ul li{
+    list-style:none;
+    display: inline-block;
+    padding:8px 12px;
+    position: relative;
+}
+.links ul li a{
+    color:white;
+    text-decoration: none;
+    font-size:15px;
+}
+.text{
+    width:80%;
+    color:white;
+    position:absolute;
+    top:35%;
+    left:5%;
+}
+.text h1{
+    font-size: 45px;
+}
+.text p{
+    margin: 5px;
+    padding:10px;
+    font-size: 16px;
+    color:white;
+}
+.foto{
+   position:absolute;
+   left:60%;
+   top:20%;
+}
+.foto1{
+    position:absolute;
+    left:75%;
+    top:17%;
+}
+.foto2 img{
+    width: 250px;
+    height: 85px;
+    position:absolute;
+    left:4%;
+    top:65%;
+}
+.foto3 img{
+    width: 250px;
+    height: 85px;
+    position:absolute;
+    left:26%;
+    top:65%;
+}
+.foto4 {
+    position:absolute;
+    left:20%;
+    top:120%;
+}
+.tekstt{
+    margin-left: 55%;
+    padding:6% 2%;
+}
+.tekstt2 p{
+    font-size:17px;
+    margin-left: 55%;
+}
+.foto5 img{
+    width: 40%;
+    height: 80%;
+    position:absolute;
+    left:50%;
+    top:220%;
+}
+.problem{
+    position: absolute;
+    left:10%;
+    top: 215%;
+}
+.tekstt3{
+    margin-top:25%;
+    margin-left: 18%;
+}
+.Form1 {
+    width:300px;
+    background-color: white;
+    box-shadow:0 0 20px 0 #999;
+    position:absolute;
+    top:240%;
+    left:14%;
+}
+form{
+    margin:35px;
+}
+.input-field{
+    width:200px;
+    height:20px;
+    margin-top:20px;
+    padding-left:10px;
+    padding-right:10px;
+    border:1px solid #777;
+    border-radius:14px;
+    outline:none;
+}
+.textarea-field{
+    height:40px;
+    padding-top:12px;
+}
+.btn{
+    border-radius: 12px;
+    color:#fff;
+    margin-top:15px;
+    padding:10px;
+    background-color: #47c35a;
+    font-size:10px;
+    border:none;
+    cursor:pointer;
+}
+</style>
 </head>
 <body>
-    <header>
-        
-        
-        
-        <nav>
-            
-            <table>
-<tr>
-            <th style="width: 200px;">
-                <li ><img class="logo" src="images/logoP.png" alt=""  ></li>
-            </th>
-           
-            <th >
-            <ul >
-                
-                <li class="li1"><a href="index.html">Home</a></li>
-                <li class="li1"><a href="App.html">App</a></li>
-                <li class="li1"><a href="News.html">News</a></li>
-                <li class="li1"><a href="About.html">About</a></li>
-            </ul>
-        </th>
-        
-        
-        </tr>
-        </table>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Web</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
     
-        </nav>
-    </header>
+        <section class="header">
+            <nav>
+                <a href="App.html"><img src="images/logoP.png"></a>
+            <div class="links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="App.html">APP</a></li>
+                    <li><a href="News.html">NEWS</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                </ul>
+            </div>
+            </nav>
+            <div class="text">
+                <h1>Weather Web</h1>
+                <p>Stay up to date on the weather with our easy-to-use Application!<br>
+                    Download the app today for free and enjoy superior accurate
+                    weather forecasting <br>on your Android & iOS device.</p>
+            </div>
+            <div class="foto">
+                <img src="images/IMG1.png">
+            </div>
+            <div class="foto1">
+                <img src="images/IMG2.png">
+            </div>
+            <div class="foto2">
+                <a href=""><img src="images/Apple.png"></a>
+            </div>
+            <div class="foto3">
+                <a href=""> <img src="images/Android.png"></a>
+            </div>
+        </section>
+            <div class="foto4">
+            <img src="images/app_image_2.png">
+            </div>
+            <div class="tekstt">
+                <h1>Detailed Weather Infomation</h1>
+            </div>
+            <div class="tekstt2">
+                <p> - Real-time weather conditions for any location in the world.<br>
+                    - Our app searches for your location automatically and provides<br>
+                      the current temperature in Celsius and Fahrenheit, sunrise and sunset times<br>
+                      according to city time zone.<br>
+                    - Down-to-minute weather forecast & accurate hourly, daily forecasts
+                    - Weather updates, alerts, and warnings (rain, storm, thunderstorm, ...).<br>
+                    - Display weather right on the home screen </p>
     
+            </div>
+            <div class="foto5">
+                <img src="images/app_image_3.png">
+            </div>
+            <div class="problem">
+                <p>*If you are having any problems with our app, please</p>
+            </div>
+            <div class="tekstt3">
+                <h1>Contact us</h1>
+            </div>
+            <div class="Form1">
+    
+                <form>
+                    <input type="text" class="input-field" placeholder="Name">
+                    <input type="text" class="input-field" placeholder="Surname">
+                    <input type="email" class="input-field" placeholder="Email">
+                    <textarea type="text" class="input-field textarea-field" placeholder="Your message"></textarea>
+                    <button type="button" class="btn">Send Message</button>
+                </form>
+            </div>
+    </body>
+    </html>
 </body>
 </html>
