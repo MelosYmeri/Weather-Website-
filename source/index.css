@@ -169,3 +169,16 @@ iframe{
     background: #f44336;
     transition: 1s;
 }
+.form1{
+   
+    color: white;
+    font-family: monospace;
+
+}
+.form2{
+    border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+}
