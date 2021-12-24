@@ -6,7 +6,8 @@
 .body
 {
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/backGround.jpg);
-background-position: center;
+background-position:  center;
+ /*e mbulon gjith faqen -16-2*/
 background-size: cover;
 position: relative;
 min-height: 100vh;
@@ -36,6 +37,7 @@ a{
     text-decoration: none;
     font-size: 30px;
     color: white;
+    text-shadow: 2px 2px black;
 }
 li{
     display: inline-block;
@@ -43,6 +45,10 @@ li{
    
     
     
+}
+
+#Nv{
+    border-color: white; margin-left: 200px;margin-right: 200px;
 }
 .li1:hover{
 
@@ -54,6 +60,7 @@ nav{
     
     
 }
+
 .logo{
     width:120px ;
     align-items: left;
@@ -90,6 +97,7 @@ top: 30px;
 position: absolute;
 top: 10px;
     left: 400px;
+    
 
 }
 
@@ -97,12 +105,13 @@ top: 10px;
 position: absolute;
 top: 2px;
     left: 550px;
-    
+   
 }
 .tuesday{
 position: absolute;
 top: 2px;
     left: 700px;
+   
 
 }
 .wendsday{
@@ -140,12 +149,7 @@ th{
 }
 
 
-footer{ padding: 20px;
-   
-    text-align: center;
-    background-color: darkblue;
-  
-}
+
 iframe{
     padding: 20px;
     width: 50%;
@@ -156,6 +160,7 @@ iframe{
     display: inline-block;
     text-decoration: none;
     color:#fff;
+    /*kerkesa 14-2*/
     border: 1px solid #fff;
     padding: 12px 34px;
     font-size:13px;
@@ -182,3 +187,7 @@ iframe{
   border-bottom: 1px solid white;
   color: white;
 }
+
+/* border-image: url(images/borderImg.png); */
+
+/*background-origin: content-box, padding-box;*/

@@ -50,14 +50,68 @@
     <br>
     Outstanding features, friendly interface, easy to use, high compatibility with almost all devices, it's always so easy and convenient to get updated weather forecasts with WeatherWeb.
         </p>
+        <br><br>
+        <audio controls> 
+            <source src="images/audio.mp3">
+            
+        </audio><br>
+        <audio controls>
+            <source src="images/audio2.mp3">
+        </audio>
     </section>
 </div>
 
     <div >
+        <table>
+            <tr >
+                <th rowspan="10">
         <img style="width: 1200x; height: 600px; " src="images/about2.png">
+    </th>
+    <!-- <th></th> -->
+   <th>
+        <script>
+            function allowDrop(ev) {
+              ev.preventDefault();
+            }
+            
+            function drag(ev) {
+              ev.dataTransfer.setData("text", ev.target.id);
+            }
+            
+            function drop(ev) {
+              ev.preventDefault();
+              var data = ev.dataTransfer.getData("text");
+              ev.target.appendChild(document.getElementById(data));
+            }
+            </script>
+             <p>Do you like weather website ? 
+                <br><br>
+            
+        </th>
+        
+        
+        
+       <tr> <td style="display: flex;">
+           
+            
+           
+       
+            <div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)">YES</div>
+            <div class="div2" ondrop="drop(event)" ondragover="allowDrop(event)">NO</div>
+            <br>
+        </td>
+      
+        </tr>
+        <tr><td>
+            <img style="width: 50px; height: 50px;" id="drag1" src="images/ok.png" draggable="true" ondragstart="drag(event)" width="336" height="69">Drag this
+        </td>
+        </tr>
+        </tr>
+        </table>
     </div>
 
     <footer>
+
         <table>
             <tr>
 

@@ -36,6 +36,7 @@ a{
     text-decoration: none;
     font-size: 30px;
     color: white;
+    text-shadow: 2px 2px black;
 }
 li{
     display: inline-block;
@@ -131,7 +132,8 @@ nav{
 .Form1 {
     width:300px;
     background-color: white;
-    box-shadow:0 0 20px 0 #999;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 0 20px 0 #999;
     position:absolute;
     top:240%;
     left:14%;
@@ -146,6 +148,7 @@ form{
     padding-left:10px;
     padding-right:10px;
     border:1px solid #777;
+   /* border-radius: 15px 30px 45px 7.5px;*/
     border-radius:14px;
     outline:none;
 }
