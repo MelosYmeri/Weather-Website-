@@ -127,8 +127,8 @@
         <form action="" style="background-color: darkblue;">
             <fieldset style="padding: 15px; border-color: darkblue;">
                 <legend style="padding: 5px; color: white;font-family: monospace;">Contact us</legend>
-                <label for="name" class="form1">Name and lastname</label><br>
-                <input type="text" class="form2"><br><br>
+                <label for="name" class="form1" >Name and lastname</label><br>
+                <input type="text" class="form2" required><br><br>
                 <label for="email" class="form1" >Email</label><br>
                 <input type="text" class="form2" ><br><br>
                 <label for="message" class="form1">Your message</label><br>
@@ -138,7 +138,8 @@
                 <input type="radio" name="help" value="1" class="form1" >No
                 <br><br>
                 <input type="submit" style="border-color: solid 0.5px white ; background-color: black;font-family: monospace ; color: white; width: 60px;"  value="Send">
-
+                 <br>
+               
 
 
             </fieldset>
@@ -157,3 +158,9 @@
    
 </body>
 </html>
+
+<!-- <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    News:<input type="range" id="a" value="50">
+    + Design:<input type="range" id="b" value="50">
+    = <output name="x" for="a b" style="color: black;"></output>
+    </form> -->
