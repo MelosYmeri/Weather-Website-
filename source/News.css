@@ -111,6 +111,7 @@ display: flex;
 .col{
 padding: 1rem;
 flex: 1;
+
 }
 .col:not(:last-child){
 border-right: 2px solid #c4c4c4;

@@ -1218,7 +1218,8 @@
             <a href="App.html" target="_blank" class="boton1"> Download APP</a></th>
            <th style="width: 800px;" > <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1504722.0656940266!2d19.7809231121342!3d42.55719786273577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13537af354bf7df1%3A0xbfffeedfabc31791!2sKosovo!5e0!3m2!1sen!2s!4v1637336263425!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></th>
         <th style="width: 350px; text-align: left;">
-            <form action="" style="background-color: darkblue;">
+            <!-- veti e forrmes kerkea e 20 onsubmit-->
+            <form action="" style="background-color: darkblue;" onsubmit="myFunction()">
                 <fieldset style="padding: 15px; border-color: darkblue;">
                     <legend style="padding: 5px; color: white;font-family: monospace;">Contact us</legend>
                     <label for="name" class="form1">Name and lastname</label><br>
@@ -1232,8 +1233,12 @@
                     <input type="radio" name="help" value="1" class="form1" >No
                     <br><br>
                     <input type="submit" style="border-color: solid 0.5px white ; background-color: black;font-family: monospace ; color: white; width: 60px;"  value="Send">
-
-
+                      <!-- kerkesa 20 onsubmit -->
+                    <script>
+                        function myFunction() {
+                          alert("The form was submitted");
+                        }
+                        </script>
 
                 </fieldset>
 
