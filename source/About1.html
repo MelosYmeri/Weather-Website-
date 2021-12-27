@@ -39,10 +39,10 @@
         
             </nav>
         </header>
-        <p class="p1">
+        <p class="p1" id="demo">
             <abbr title="Weather Web" >WW</abbr> - Fast Update Detailed Weather Forecast Information<br>
     
-    WeatherWeb was created based on our available app, which has been used and rated as "Great App" by a lot of users around the world.
+   WeatherWeb was created based on our available app, which has been used and rated as "Great App" by a lot of users around the world.
     <br>
     Offering more than 15 essential parameters, we want this web version to be the place for accurate, up-to-date, and detailed weather forecast information.
     <br>
@@ -83,6 +83,10 @@
               var data = ev.dataTransfer.getData("text");
               ev.target.appendChild(document.getElementById(data));
             }
+            //Kerkesa 20 - Replace string    
+            let text = document.getElementById("demo").innerHTML; 
+            document.getElementById("demo").innerHTML = text.replace("WW", "WeatherWeb");
+
             </script>
              <p>Do you like weather website ? 
                 <br><br>
