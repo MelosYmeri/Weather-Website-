@@ -1,3 +1,5 @@
+var header = document.getElementById("header");
+header.innerHTML="Weather Web";
 var canvas = document.querySelector('canvas');
 var c = canvas.getContext('2d');
 c.fillStyle='rgba(255,0,0,0.5)';
