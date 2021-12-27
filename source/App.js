@@ -1,0 +1,17 @@
+var canvas = document.querySelector('canvas');
+var c = canvas.getContext('2d');
+c.fillStyle='rgba(255,0,0,0.5)';
+c.fillRect(10,5,18,40);
+c.fillStyle='rgba(255,0,0,0.5)';
+c.fillRect(40,17,62,11);
+c.fillStyle='rgba(255,0,0,0.5)';
+c.fillRect(30,93,74,100);
+c.fillStyle='rgba(255,0,0,0.5)';
+c.fillRect(120,15,150,111);
+console.log(canvas);
+c.beginPath();
+c.moveTo(150,30);
+c.lineTo(12,100);
+c.lineTo(47,17);
+c.strokeStyle="#fa34a3";
+c.stroke();
