@@ -200,8 +200,8 @@ form{
     animation:mymove 5s infinite;
 }
 @keyframes mymove {
-    0%   {top: 0px;}
-    25%  {top: 200px;}
-    75%  {top: 50px}
-    100% {top: 100px;}
+    0%   {top: 0px;background: #47c35a}
+    25%  {top: 200px;background: #2e8d3d}
+    75%  {top: 50px;background: #1a7e29}
+    100% {top: 100px;background: #147e24}
   }
