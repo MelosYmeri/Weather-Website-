@@ -44,6 +44,24 @@
                 <p>Stay up to date on the weather with our easy-to-use Application!<br>
                     Download the app today for free and enjoy superior accurate
                     weather forecasting <br>on your Android & iOS device.</p>
+                    <div style="position: absolute; margin-top:260px; margin-left: 20px;">
+                        <h2 style="color: white;font-family: monospace;">
+                            Actions to download our app:</h2><br>
+                
+                <p id="city1" style="color: white; font-size: 20px;font-family: monospace;"></p>
+                
+                <script>
+                const city = ["Go appStore", "Search WW", "Click install", "Open"];
+                
+                let text = "";
+                for (let i = 0; i < city.length; i++) {
+                  text += city[i] + "<br>";
+                }
+                
+                document.getElementById("city1").innerHTML = text;
+                </script>
+                
+                </div>
             </div>
             <div class="foto">
                 <img src="images/IMG1.png">
@@ -96,9 +114,9 @@
             <div class="tekstt3">
                 <h1>Contact us</h1>
             </div>
-            <div class="Form1">
+            <div class="Form1" >
     
-                <form>
+                <form autocomplete="on">
                     <input type="text" class="input-field" placeholder="Name">
                     <input type="text" class="input-field" placeholder="Surname">
                     <input type="email" class="input-field" placeholder="Email">
