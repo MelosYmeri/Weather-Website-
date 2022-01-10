@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/minty/bootstrap.min.css"
+  /> -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Web</title>
    <link rel="stylesheet" href="index.css">
+   
 
    <style>
        
@@ -61,7 +66,7 @@
             <br>
            <hr id="Nv"  >
             <br><br><br>
-            <div >
+            <!-- <div >
                 <form  action="">
                     <table class="center1"><tr >
                         
@@ -77,22 +82,43 @@
                            color: white; " type="search" placeholder ="Search location..." name="search">
                         </th>
                         <th >
-                           <button  style="padding: 0;  background-color: rgba(0, 0, 255, 0);border: solid 0.5px rgba(255, 255, 255, 0)" type="submit"><img style=" padding: 0; width: 35px;height: 35px;" src="images/srch1.png" alt=""></button>
+                           <button   style="padding: 0;  background-color: rgba(0, 0, 255, 0);border: solid 0.5px rgba(255, 255, 255, 0)" type="submit"><img style=" padding: 0; width: 35px;height: 35px;" src="images/srch1.png" alt=""></button>
                         </th>
                         </tr>
                         </table>
                    </form>
 
-            </div>
+            </div> -->
         </header>
-        <br><br>
-       
-        <br><br>
-       
-        <div style="width:100%;height:0;padding-bottom:67%;position:relative; "><iframe src="https://giphy.com/embed/T9VKxJJvtw4Cc" width="100%" height="100%" style="position:absolute; width: 1500px; " frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/magazine-covers-reinventing-T9VKxJJvtw4Cc"></a></p>
-    </div>
+        <div class="widget1">
+            <div class="widget2">
+                <h1>Get The Weather For a Location</h1><br><br><br>
+                <p class="lead" >Enter Your Location</p>
+                <input type="text" id="searchUser" class="form-control" placeholder="Location" style="  border: 0;
+                outline: 0;border-bottom: white solid 0.5px;width: 800px; font-size: 30px;
+                 font-family: monospace; background-color: transparent;">
+            </div>
+            <br>
+            <div id="profile"></div>
+        </div>
+        <div class="widget3">
+            <button class="widget4" id="submit"><img src="images/srch1.png" alt="" style="width: 30px;height: 30px;"></button>
+        </div>
         
-        <div class="widget">
+        <div id="content" style="background-color: rgba(136, 128, 128, 0.446); margin-top: 50px; font-size: 35px;border-radius: 10px; border: solid white 0.5px;
+        color: white; margin-left: 500px; margin-right: 600px; padding: 20px; font-family: monospace;">
+
+        </div>
+      
+        <br><br>
+       
+        <br><br>
+       
+        <div style="width:100%;height:0;padding-bottom:67%;position:relative; margin-top: 200px; "><iframe src="https://giphy.com/embed/T9VKxJJvtw4Cc" width="100%" height="100%" style="position:absolute; width: 1500px; " frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/magazine-covers-reinventing-T9VKxJJvtw4Cc"></a></p>
+    </div>
+    
+        
+        <!-- <div class="widget">
         <div class="container" >
             
             
@@ -1202,10 +1228,10 @@
           </div>
 
           
-        </div>
-    </div>
+        </div>-->
+    </div> 
     
-        <footer>
+        <footer style="margin-top: 0px;">
             <table>
                 <tr>
 
@@ -1254,4 +1280,7 @@
     </address>
         </footer>
 </body>
+<script src="fetch.js"></script>
+<script src="ui.js"></script>
+<script src="app.js"></script>
 </html>

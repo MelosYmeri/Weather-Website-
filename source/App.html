@@ -93,7 +93,7 @@
                     - Down-to-minute weather forecast & accurate hourly, daily forecasts
                     - Weather updates, alerts, and warnings (rain, storm, thunderstorm, ...).<br>
                     - Display weather right on the home screen </p>
-                    <!--Js Array-->
+                    
                     <p id="array"></p>
 
                     <script>
@@ -128,10 +128,10 @@
                             alert("Your message has been sent!");
                         }
                     </script>
-                    <!--Alert box-->
+                  
                 </form>
             </div>
-            <!--Pjesa e svg-->
+            
             <svg id="svg1"height="100" width="500">
                 <ellipse cx="240" cy="50" rx="220" ry="30" style="fill:#47c35a" />
                 <ellipse cx="220" cy="50" rx="190" ry="20" style="fill:white" />
@@ -147,6 +147,26 @@
               </div>
 
             <canvas id="canvas"></canvas>
-            <script src="App.js"></script>
+            <script >
+                var header = document.getElementById("header");
+                header.innerHTML="Weather Web";
+                var canvas = document.querySelector('canvas');
+                var c = canvas.getContext('2d');
+                c.fillStyle='rgba(255,0,0,0.5)';
+c.fillRect(10,5,18,40);
+c.fillStyle='rgba(255,0,0,0.5)';
+c.fillRect(40,17,62,11);
+c.fillStyle='rgba(255,0,0,0.5)';
+c.fillRect(30,93,74,100);
+c.fillStyle='rgba(255,0,0,0.5)';
+c.fillRect(120,15,150,111);
+console.log(canvas);
+c.beginPath();
+c.moveTo(150,30);
+c.lineTo(12,100);
+c.lineTo(47,17);
+c.strokeStyle="#fa34a3";
+c.stroke();
+            </script>
 </body>
 </html>

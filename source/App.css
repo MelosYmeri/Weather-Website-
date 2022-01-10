@@ -89,9 +89,9 @@ nav{
     left:73%;
     top:24%;
     transform: scale(1.1);
-    /*scale 1.1 u rrit figura per 0.1 ose 10% ma shume*/
+    
 }
-/*figurat*/
+
 #figure1{
     position:absolute;
     left:4%;
@@ -107,7 +107,7 @@ nav{
     left:20%;
     top:120%;
     transform: translateX(20px);
-    /*Leviz djathtas per 20px*/
+   
 }
 .tekstt{
     margin-left: 55%;
@@ -125,7 +125,7 @@ nav{
     top:220%;
     transform: rotate(2deg);
     transform: skewX(4deg);
-    /*rotate,skew-*/
+ 
 
 }
 .problem{
@@ -141,7 +141,7 @@ nav{
     width:300px;
     background-color: rgba(255, 255, 255, 0.952);
     background-repeat: no-repeat;
-    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    
     box-shadow: 0 0 20px 0 #999;
     position:absolute;
     top:240%;
@@ -157,7 +157,7 @@ form{
     padding-left:10px;
     padding-right:10px;
     border:1px solid #777;
-   /* border-radius: 15px 30px 45px 7.5px;*/
+   
     border-radius:14px;
     outline:none;
 }
@@ -175,7 +175,7 @@ form{
     border:none;
     cursor:pointer;
 }
-/*ndryshim*/
+
 #svg1{
     position: absolute;
     left:9%;
@@ -187,7 +187,7 @@ form{
     top: 180%;
     transform: translateX(20px);
 } 
-/*pjesa e keyframe*/
+
 .circle{
     background:#47c35a;
     height:170px;

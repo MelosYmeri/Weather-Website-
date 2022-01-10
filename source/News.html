@@ -164,20 +164,20 @@
     </address>
     </footer>
    
-    <script> //read more Javascript
+    <script> 
         function myFunction() {
-          var dots = document.getElementById("dots");//returns element that has the ID attribute with value, searches for dots
-          var moreText = document.getElementById("more");// '' '' searches for more
-          var btnText = document.getElementById("myBtn");// '' '' searches for myBtn
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
         
           if (dots.style.display === "none") {
             dots.style.display = "inline";
-            btnText.innerHTML = "Read more"; //button says read more to show more text
+            btnText.innerHTML = "Read more"; 
 
             moreText.style.display = "none";
           } else {
             dots.style.display = "none";
-            btnText.innerHTML = "Read less"; //button says read less to show less text
+            btnText.innerHTML = "Read less"; 
             moreText.style.display = "inline";
           }
         }
@@ -212,7 +212,7 @@
           }
         }
 
-        //data
+      
         const d = new Date();
 document.getElementById("demo").innerHTML = d.toDateString();
         </script>
