@@ -105,7 +105,7 @@ nav{
 .foto4 {
     position:absolute;
     left:20%;
-    top:120%;
+    top:126%;
     transform: translateX(20px);
    
 }
@@ -134,8 +134,12 @@ nav{
     top: 230%;
 }
 .tekstt3{
-    margin-top:27%;
+    margin-top:37%;
     margin-left: 18%;
+}
+.tekstt4{
+    margin-top:1%;
+    margin-left: 60%;
 }
 .Form1 {
     width:300px;
