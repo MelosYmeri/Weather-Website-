@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Web</title>
-
+<script src="jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="News.css">
 
 
@@ -72,35 +72,38 @@
                 <p>
                     <h4> Emetimet e karbonit, acidifikimi i oqeanit, shkatërrimi i Amazonës po gjenerojnë shifra të reja shqetësuese</h4>
                      <br> Një studim i ri që ka trajtuar shenjat jetësore të planetit ka zbuluar se shumica e treguesve ky&ccedil; të krizës klimatike globale po përkeqësohen dhe se ose po u afrohen ose po i tejkalojnë pikat kyç, ngase Toka po nxehet fort.
-                    <span id="dots2">...</span><span id="more2">
+                    <!-- <span id="dots2">...</span><span id="more2"> -->
+
 
                     Në përgjithësi, studimi ka zbuluar se 16 prej 31 sinjaleve jetësore të planetit, të cilat janë vrojtuar, përfshirë përqendrimet e gazeve serrë, përmbajtja e nxehtësisë së oqeanit dhe masës së akullit, kanë rezultuar me shifra shqetësuese, ka shkruar të enjten e përditshmja britanike “The Guardian”.
                     Autorët e kanë theksuar njashtu nevojën për një ndalim të përkohshëm të lëndëve djegëse fosile dhe zhvillimin e rezervave globale strategjike të klimës për t’i mbrojtur dhe rivendosur zhytjet natyrore të karbonit dhe biodiversitetin.
     
                     Arsimimi klimatik duhet që po ashtu të jetë pjesë e kurrikulave shkollore në të gjithë globin, kanë bërë të ditur studiuesit.
-                </span>
-                <button onclick="myFunction2()" id="myBtn2">Read more</button>
+                <!-- </span> -->
+                <!-- <button onclick="myFunction2()" id="myBtn2">Read more</button> -->
+                <button id="btn22">Set text </button>
+                <p id="test22"></p>
             </p>
            
                
             </div>    
             <div class="col">
-                <h3>Metereologu Rugova tregon se kur mund të bie borë në Kosovë
-                </h3>
+                <h3>Metereologu Rugova tregon se kur mund të bie borë në Kosovë</h3>
                
     
                 <img src="images/bore.jpg" alt="">
-                <p>
+                <p id="test33">
                     Sipas Rugovës, ditët e fundit të muajit nëntor dhe në dhjetor mund të ketë të reshura të borës.
                     “Patjetër që ditët e fundit të nëntorit dhe dhjetorit sjellin mundësitë për të reshurat e borës, e me këtë shtohet edhe intetesimi se kur mund të kemi reshjet e para të dëborës”, tha Rugova të dielen për Express.
-                    <span id="dots3">...</span><span id="more3">
+                    <!-- <span id="dots3">...</span><span id="more3"> -->
     Rugova thekson se gjatë kësaj jave nuk pritet të ketë reshje bore, por vetëm të shiut.
     
     “Sipas zhvillimeve të fundit të situatës sinoptike as gjatë kësaj jave nuk priten mundësi për reshje bore. Gjatë kësaj jave pritet të kemi periudha me të reshura, por të shiut, ngase temperaturat ende do të jenë të larta. Vetëm në vise të larta malore janë gjasat për bore”, tha ai.
     
     “Për momentin, mundësitë janë nga ditët e para të dhjetorit, kur edhe trendi i temperaturave është në rënie. Mirëpo në distancë kohore ende është pak larg, për të qenë parashikimet e besueshme”, përfundoi ai.
-                       </span>        
-                    <button onclick="myFunction3()" id="myBtn3">Read more</button> 
+                       <!-- </span>         -->
+                    <!-- <button onclick="myFunction3()" id="myBtn3">Read more</button>  -->
+                    <button id="btn33">Get All Paragraph's Text</button>
                 </p>
               
             </div>    
@@ -181,40 +184,53 @@
             moreText.style.display = "inline";
           }
         }
-        function myFunction2() {
-          var dots = document.getElementById("dots2");
-          var moreText = document.getElementById("more2");
-          var btnText = document.getElementById("myBtn2");
+        // function myFunction2() {
+        //   var dots = document.getElementById("dots2");
+        //   var moreText = document.getElementById("more2");
+        //   var btnText = document.getElementById("myBtn2");
         
-          if (dots.style.display === "none") {
-            dots.style.display = "inline";
-            btnText.innerHTML = "Read more"; 
-            moreText.style.display = "none";
-          } else {
-            dots.style.display = "none";
-            btnText.innerHTML = "Read less"; 
-            moreText.style.display = "inline";
-          }
-        }
-        function myFunction3() {
-          var dots3 = document.getElementById("dots3");
-          var moreText3 = document.getElementById("more3");
-          var btnText3 = document.getElementById("myBtn3");
+        //   if (dots.style.display === "none") {
+        //     dots.style.display = "inline";
+        //     btnText.innerHTML = "Read more"; 
+        //     moreText.style.display = "none";
+        //   } else {
+        //     dots.style.display = "none";
+        //     btnText.innerHTML = "Read less"; 
+        //     moreText.style.display = "inline";
+        //   }
+        // }
+        // function myFunction3() {
+        //   var dots3 = document.getElementById("dots3");
+        //   var moreText3 = document.getElementById("more3");
+        //   var btnText3 = document.getElementById("myBtn3");
         
-          if (dots3.style.display === "none") {
-            dots3.style.display = "inline";
-            btnText3.innerHTML = "Read more"; 
-            moreText3.style.display = "none";
-          } else {
-            dots3.style.display = "none";
-            btnText3.innerHTML = "Read less"; 
-            moreText3.style.display = "inline";
-          }
-        }
+        //   if (dots3.style.display === "none") {
+        //     dots3.style.display = "inline";
+        //     btnText3.innerHTML = "Read more"; 
+        //     moreText3.style.display = "none";
+        //   } else {
+        //     dots3.style.display = "none";
+        //     btnText3.innerHTML = "Read less"; 
+        //     moreText3.style.display = "inline";
+        //   }
+        // }
 
       
         const d = new Date();
-document.getElementById("demo").innerHTML = d.toDateString();
+        document.getElementById("demo").innerHTML = d.toDateString();
+        </script>
+        <script>
+            $(document).ready(function(){
+            $("#btn33").click(function(){
+                alert("Text: " + $('#test33').text());
+            });
+            });
+       
+        $(document).ready(function(){
+            $("#btn22").click(function(){
+                $("#test22").text("Hello world!");
+            });
+        });
         </script>
 </body>
 </html>

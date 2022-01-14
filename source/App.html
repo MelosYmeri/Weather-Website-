@@ -102,9 +102,15 @@
                  $("p span").css("color","grey");
                 </script>
                 <script>
-                    $("#jefect").on('click',function(){
-                        $(".para1").toggle();
-                    });
+                    // $("#jefect").on('click',function(){
+                    //     $(".para1").toggle();
+                    // });
+                    $(document).ready(function(){
+                    $("#jefect").click(function(){
+                        $(".para1").slideToggle("slow");
+                    });   
+                });
+
                 </script>
                 
                 </p>

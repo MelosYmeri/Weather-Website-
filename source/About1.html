@@ -94,7 +94,14 @@
     Within a few clicks, you will have all the necessary weather information, including weather forecast for today, tomorrow, for the next 03 days, 05 days and 10 days weather forecast in your locality or any other areas in the world. We also provide real-time weather radar to help users track weather developments at all locations on Earth.
     <br>
     Outstanding features, friendly interface, easy to use, high compatibility with almost all devices, it's always so easy and convenient to get updated weather forecasts with WeatherWeb.
-        </p>
+    <br> <br>
+    Click the button to insert text
+    <br>
+    <button id="in" onclick="afterText()">Insert </button>
+            <br><br>
+    Click the button to remove all the text <br>
+        <button id = "remove"> Remove</button>
+</p>
         <br><br>
 
         
@@ -138,6 +145,17 @@
              
             let text = document.getElementById("demo").innerHTML; 
             document.getElementById("demo").innerHTML = text.replace("WW", "WeatherWeb");
+
+            function afterText() {
+                var txt = $("<i></i>").text(" I love this website! ");  // Create with jQuery
+                $("#in").after(txt); 
+            }
+
+              $(document).ready(function(){
+                $("#remove").click(function(){
+                    $("#demo").remove();
+                });
+            });
 
             </script>
              <p>Do you like weather website ? 
