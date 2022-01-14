@@ -74,9 +74,21 @@ nav{
     color:white;
     position:absolute;
     padding:5px;
-    margin:5%;
+    margin-top: 160px;
     top:30%;
+    margin-left: 250px;
 
+}
+#divi1{
+   
+    height:100px;
+    width:400px;
+    position:absolute; 
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    margin-left: 450px;
+    margin-top: -490px;
 }
 
 /* #multipleP{

@@ -7,6 +7,7 @@
     <title>Weather Web</title>
     
 <link rel="stylesheet" href="About1.css">
+
 </head>
 <body>
     
@@ -34,11 +35,55 @@
             </th>
             
             
+               
+           
             </tr>
             </table>
-        
+        <div style="float: right; width: 100px; margin-top: -100px;">
+            <p><output id="result" style="border: 1px white solid; padding: 10px; border-radius: 25px;
+                width: 70px; height: 50px; font-size: 20px; color: white; font-family: monospace;"></output></p></div>
             </nav>
         </header>
+<!-- Workeri -->
+<script src="jquery-3.6.0.min.js"></script>
+        <script>
+     
+            var w;
+            var i = 0;
+            
+            function startWorker() {
+              if(typeof(Worker) !== "undefined") {
+                if(typeof(w) == "undefined") {
+                  w = new Worker('worker.js');
+                }
+                w.onmessage = function(event) {
+                  document.getElementById("result").innerHTML = event.data;
+                };
+              } else {
+                document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers...";
+              }
+            }
+            
+            function stopWorker() { 
+              w.terminate();
+              w = undefined;
+            }
+
+            function start1(){
+        var div = $("#divi1");  
+        div.animate({left: '100px'}, 3000);
+        div.animate({fontSize: '50'}, 3000);
+        }
+    
+            window.onload=function(){
+            startWorker();
+            start1();
+            // setTimeout(stopWorker, 3000);
+        
+            }
+            </script>
+
+            
         <p class="p1" id="demo">
             <abbr title="Weather Web" >WW</abbr> - Fast Update Detailed Weather Forecast Information<br>
     
@@ -51,6 +96,8 @@
     Outstanding features, friendly interface, easy to use, high compatibility with almost all devices, it's always so easy and convenient to get updated weather forecasts with WeatherWeb.
         </p>
         <br><br>
+
+        
         <audio controls> 
             <source src="images/audio.mp3">
             
@@ -60,6 +107,10 @@
         </audio>
     </section>
 </div>
+
+
+  
+    <div  id="divi1" >WEATHER web</div>
 
 
     <div >
@@ -162,6 +213,7 @@
     </table>
     <address>
         <a style="color: white; font-size: 20px;text-decoration: underline; padding: 10px;" href="index.html"> www.WeatherWeb.com</a>
+        
     </address>
     </footer>
 

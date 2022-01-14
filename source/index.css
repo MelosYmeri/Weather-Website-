@@ -18,11 +18,18 @@ height: 1800px;
 }
 
 
-.widget{
+#widget{
     background-color: darkblue;
     margin-top: 0px;
+    display: none;
 }
-
+#click1{
+    background-color: darkblue;
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+}
 
 
 ul{
