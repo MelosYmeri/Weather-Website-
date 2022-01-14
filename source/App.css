@@ -134,8 +134,8 @@ nav{
     top: 230%;
 }
 .tekstt3{
-    margin-top:37%;
-    margin-left: 18%;
+    margin-top:450px;
+    margin-left: 280px;
 }
 .tekstt4{
     margin-top:1%;
@@ -188,7 +188,7 @@ form{
 #svg2{
     position: absolute;
     left:20%;
-    top: 180%;
+    top: 195%;
     transform: translateX(20px);
 } 
 
@@ -213,4 +213,4 @@ form{
   #canvas
   { border:1px solid black;
     position:absolute;
-    top:178%; left:19%; }
+    top:190%; left:19%; }

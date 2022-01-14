@@ -133,7 +133,9 @@
                 <p>*If you are having any problems with our app</p>
             </div>
             <script>
+                $(document).ready(function(){
                 $(".problem").hide();
+            });
             </script>
             <div class="tekstt3">
                 <h1>Contact us</h1>
@@ -147,9 +149,11 @@
                     <textarea type="text" class="input-field textarea-field" placeholder="Your message"></textarea>
                     <input type="submit" class="btn" value="Send Message" onclick="myFunction()"></input>
                     <script>
-                        $("#myFunction()").click(function(){
+                        $(document).ready(function(){
+                        $(".btn").click(function(){
                             alert("Your message has been sent!");
                         });
+                    })
                     </script>
                   
                 </form>
